@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Visual Memory Trainer</h1>
+        <h2>Select Level</h2>
+        <div class="slider-div">
+            <label for="slider">Level</label>
+            <input id="slider" type="range" min="1" max="20" step = "1">
+            <label for="slider2">Time (ms)</label>
+            <input id="slider2" type="range" min="0" max="5000" step = "1">
+        </div>
+        <p class="level-display">Select A Level</p>
+        <div class="header-buttons">
+            <button class="start-button">Start</button>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="squares">
+            
+        </div>
+    </div>
+
+    <div class="lose-screen">
+        <button class="end-button" id= "lose-button">ok I suck</button>
+    </div>
+    
+    <div class="win-screen">
+        <button class="end-button" id="win-button">YAY I WIN</button>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
